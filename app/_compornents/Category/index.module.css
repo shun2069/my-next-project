@@ -1,0 +1,7 @@
+.tag {
+    background-color: aliceblue;
+    padding: 4px 12px;
+    border-radius: 8px;
+    white-space: nowrap;
+    font-size: 1rem;
+}

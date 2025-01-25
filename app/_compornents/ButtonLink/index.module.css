@@ -1,0 +1,23 @@
+.button {
+    display: block;
+    padding: 20px 40px;
+    border-radius: 8px;
+    background-color: black; /* 背景色を黒に設定 */
+    color: #fff; /* 文字色を白に設定 */
+    width: 300px;
+    background-image: url("/arrow-right.svg"); /* 背景画像を指定 */
+    background-repeat: no-repeat;
+    background-position: right 20px center; /* 右端から20px中央に配置 */
+    background-size: 24px; /* アイコンのサイズを調整 */
+    text-align: left; /* テキストを左揃え */
+}
+.botton:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 640px) {
+    .button {
+        padding: 16px 24px;
+        width: 100%;
+    }
+}
